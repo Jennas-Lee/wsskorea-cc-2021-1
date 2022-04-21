@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    src: url("../font/NotoSansKR-Regular.otf");
+    font-family: 'Noto Sans KR';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", serif;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    width: 1180px;
+    height: 60px;
+    margin: 10px;
+    border: solid 1px #000000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header h1 {
+    width: 450px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+
+.account-num {
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.account-num span {
+    float: right;
+    font-weight: bold;
+}
+
+.start-btn {
+    width: 100px;
+    height: 45px;
+    margin: 5px 5px;
+    line-height: 40px;
+    font-size: 20px;
+    float: right;
+}
+
+.ssh-modal {
+    width: 400px;
+    height: 220px;
+    border: solid 1px #000000;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    background-color: #ffffff;
+}
+
+.ssh-modal h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.ssh-modal table {
+    width: 400px;
+}
+
+.ssh-modal td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+.ssh-modal td:nth-child(2) {
+    width: 300px;
+    text-align: center;
+}
+
+.ssh-modal td input[type=text] {
+    width: 95%;
+}
+
+.ssh-error {
+    text-align: center;
+    display: block;
+    color: #ff0000;
+}
+
+.ssh-btn {
+    margin: 5px;
+    text-align: center;
+    display: block;
+}
+
+.ssh-btn button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
